@@ -23,3 +23,20 @@
 4. GitHub 저장소로 이동하고, main 브랜치로 Pull Request를 생성합니다.
 5. 스터디 참여자들이 Pull Request를 확인하고, 코드 리뷰를 진행합니다(선택사항).
 모든 참가자의 승인(코드 리뷰)이 되면 마지막 승인한 사람이 Pull Request를 main 브랜치로 머지합니다.
+---------
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/82bfdb1e-a19b-4637-b1f6-58a8aba06e55)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/c0f14055-2b89-4903-9535-d4a2b25c8903)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/4107edc6-77d6-4194-8b09-813eea9e8de3)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/412ed7e4-e73b-48ce-b661-72147bf271da)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/b5e31246-ac1b-499a-bc38-eb6bcb5c3305)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/ed22970c-f333-4ea7-a7a2-cf9c62f2f1f7)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/1800e295-83e0-4307-b957-241b97368d98)
+
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/dd12cada-4116-4565-9696-8c7a11e77e13)
+
