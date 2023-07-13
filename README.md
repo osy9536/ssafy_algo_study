@@ -16,7 +16,7 @@
 2. 문제를 해결하고 코드를 커밋합니다.
     ```bash
     git add .
-    git commit -m "문제 해결: [문제 이름]"
+    git commit -m "문제 해결: [문제 이름_문제 번호]"
 3. 변경사항을 원격 브랜치에 푸시합니다.
     ```bash
     git push origin [브랜치 이름]
