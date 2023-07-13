@@ -10,21 +10,3 @@
 4. 마지막으로 승인한 사람이 해당 PR을 `main` 브랜치에 머지해 주기(머지하려면 모든 인원이 승인 해줘야 함)
 
 ## 참여 방법
-
-1. 이 저장소를 Fork하여 자신의 GitHub 계정으로 가져옵니다.
-2. 로컬 환경에 Fork한 저장소를 클론합니다.
-   ```bash
-   git clone https://github.com/[본인 계정]/[저장소 이름].git
-3. 새로운 브랜치를 생성합니다.
-    ```bash
-    git checkout -b [브랜치 이름]
-4. 문제를 해결하고 코드를 커밋합니다.
-    ```bash
-    git add .
-    git commit -m "문제 해결: [문제 이름]"
-5. 변경사항을 원격 브랜치에 푸시합니다.
-    ```bash
-    git push origin [브랜치 이름]
-6. GitHub 웹 페이지에서 Fork한 저장소로 이동하고, main 브랜치로 Pull Request를 생성합니다.
-7. 스터디 참여자들이 Pull Request를 확인하고, 코드 리뷰를 진행합니다(선택사항).
-8. 모든 승인(코드 리뷰)이 되면 Pull Request를 main 브랜치로 머지합니다.
