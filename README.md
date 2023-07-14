@@ -38,5 +38,9 @@
 ---
 ![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/1800e295-83e0-4307-b957-241b97368d98)
 ---
+첫번째 v 표시에서는 승인을 해줘야 하는 인원(전부), 아래 v표시에는 본인을 넣으면 됩니다.
+---
+![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/ae86b207-4d86-499a-a9a7-2886115eea34)
+---
 ![image](https://github.com/osy9536/ssafy_algo_study/assets/76714304/dd12cada-4116-4565-9696-8c7a11e77e13)
 ---
