@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Gold5_14719 {
+public class b14719 {
 	static int[] arr;
 	static int x,y;
 	public static void main(String[] args) throws IOException {
