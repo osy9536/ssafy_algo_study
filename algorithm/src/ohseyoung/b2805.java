@@ -31,21 +31,22 @@ public class b2805 {
 
 		// 22
 		while (min < max) {
-			int sum = 0;
+			long sum = 0;
 			int mid = (max + min) / 2;
 			for (int i : arr) {
 				if (i - mid > 0)
 					sum += i - mid;
 			}
 
-			if (sum >= m) {
-				min++;
-			} else
+			if (sum < m) {
 				max = mid;
+			} else {
+				min = mid + 1;
+			}
 
 			// min = 12, mid = 16 -> max = 16, mid = 14 -> min = 14, mid = 15 -> max =15,
 			// min = 15
 		}
-		System.out.println(max - 1);
+		System.out.println(min - 1);
 	}
 }
