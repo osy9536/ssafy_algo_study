@@ -19,7 +19,6 @@ public class b1546 {
                }
                sum += scores[i];
            }
-
            System.out.println((sum * 100.0 / max) / test_case);
        }
 }
