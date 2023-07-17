@@ -1,4 +1,4 @@
-package algorithm.src.jenseo;
+package algorithm.src.junseo;
 
 import java.util.Scanner;
 public class b2798 {
