@@ -11,7 +11,7 @@ public class b11720 {
         char[] cNum = sNum.toCharArray();
         int sum = 0;
         for(int i = 0; i < cNum.length; i++){
-            sum += cNum[i];
+            sum += cNum[i] - '0';
         }
         System.out.print(sum);
         }
