@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class b14888 {
     static int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
     static int[] num;
     static int[] four=new int[4];
