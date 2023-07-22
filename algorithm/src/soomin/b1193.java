@@ -3,6 +3,7 @@ package algorithm.src.soomin;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class b1193 {
     public static void main(String[] args) {
 
