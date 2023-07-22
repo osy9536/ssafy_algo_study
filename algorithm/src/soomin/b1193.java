@@ -50,6 +50,7 @@ public class b1193 {
             this.numerator = numerator;
             this.denominator = denominator;
         }
+
     }
 }
 
