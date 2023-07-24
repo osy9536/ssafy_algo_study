@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 /**
  * 백준 11660
  * 구간 합 구하기 5
- * 실버2
+ * 실버1
  * https://www.acmicpc.net/problem/11660
  */
 public class b11660 {
