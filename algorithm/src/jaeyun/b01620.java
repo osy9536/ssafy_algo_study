@@ -1,6 +1,6 @@
 package algorithm.src.jaeyun;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class b01620 {
@@ -8,23 +8,21 @@ public class b01620 {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int M = sc.nextInt();
-		ArrayList<String> pokemons = new ArrayList<>();
+		String[] pokemonsInArray = new String[N+1];
+		HashMap<String, Integer> pokemonsInHashMap = new HashMap<>();
 		for (int i=0; i<N; i++) {
-			pokemons.add(sc.next());
+			String tmp = sc.next();
+			pokemonsInArray[i+1] = tmp;
+			pokemonsInHashMap.put(tmp, i+1);
 		}
 		for (int i=0; i<M; i++) {
 			String input = sc.next();
 			char firstEle = input.toCharArray()[0];
-			if (firstEle >= '0' && firstEle <= '9') {
-				System.out.println(pokemons.get(Integer.valueOf(input) - 1));
+			if (firstEle >= '1' && firstEle <= '9') {
+				System.out.println(pokemonsInArray[Integer.parseInt(input)]);
 			}
 			else {
-				for (int j=0; j<pokemons.size(); j++) {
-					if (input.equals(pokemons.get(j))) {
-						System.out.println(j+1);
-						break;
-					}
-				}
+				System.out.println(pokemonsInHashMap.get(input));
 			}
 		}
 		sc.close();
