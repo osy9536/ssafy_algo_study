@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class b10974 {
+
     // 전역변수 처리
     static boolean visited[];
     static int arr[];
