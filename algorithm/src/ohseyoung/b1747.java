@@ -1,7 +1,8 @@
 package algorithm.src.ohseyoung;
 
 import java.util.Scanner;
-
+// 실버 1
+// 소수&팰린드롬
 public class b1747 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
