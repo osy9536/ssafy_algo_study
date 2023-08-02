@@ -41,6 +41,7 @@ public class b2346 {
 
         while(true){
 
+            // 풍선이 하나 남으면 해당 풍선의 인덱스를 리스트 안에 넣고 끝낸다.
             if(balloons.size() ==1) {
                 Balloon last = balloons.poll();
 
@@ -48,13 +49,19 @@ public class b2346 {
                 break;
             }
 
+            // 맨 앞 순서의 풍선 하나를 queue 에서 뺀다.
             Balloon b = balloons.poll();
+
+            // 해당 큐의 인덱스를 list안에 넣는다.
             list.add(b.index);
+
+            // 만약 풍선에 적혀있는 쪽지의 값이 음수일경우 왼쪽으로 간다. -> 큐의 머리부분에서 빼서 꼬리로 다시 넣는 것으로 표현
             if(b.value<0) {
                 for (int i = 0; i < Math.abs(b.value); i++) {
                     Balloon bb = balloons.removeLast();
                     balloons.addFirst(bb);
                 }
+                // 만약 풍선에 적힌 쪽지의 값이 양수이면 오른쪽으로 간다. -> 큐의 꼬리부분에서 빼서 다시 머리로 넣는 것으로 표현
             }else {
                 for(int i=0; i < b.value-1; i++) {
                     Balloon bb = balloons.removeFirst();
