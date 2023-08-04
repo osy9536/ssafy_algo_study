@@ -13,7 +13,7 @@ public class b16563 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         for(int i = 0; i < N; i++){
             num[i] = Integer.parseInt(st.nextToken());
-        }//ÀÔ·Â°ª ¹Þ±â
+        }//ï¿½Ô·Â°ï¿½ ï¿½Þ±ï¿½
         for(int i = 0; i < 5000001; i++){
             standard[i] = i;
         }
@@ -21,14 +21,14 @@ public class b16563 {
         for(int i = 0; i < N; i++){
             int temp = num[i];
             while (temp > 1){
-                //standard[temp]´Â tempÀÇ °¡Àå ÀÛÀº ¼ÒÀÎ¼ö
+                //standard[temp]ï¿½ï¿½ tempï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¼ï¿½
                 sb.append(standard[temp]).append(" ");
                 temp /= standard[temp];
             }
             sb.append("\n");
         }
         System.out.println(sb);
-    }//mainÇÔ¼ö Á¾·á
+    }//mainï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½ï¿½
     static void sosu(int n, int A[]){
         int one[] = new int[n];
         for(int i = 0; i < n; i++){
@@ -40,7 +40,7 @@ public class b16563 {
                 for(int j = i+i; j < n; j += i){
                     one[j] = 0;
                     if (A[j] == j){
-                        A[j] = i; //°¡Àå ÀÛÀº ¼ÒÀÎ¼ö ÀÔ·Â
+                        A[j] = i; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¼ï¿½ ï¿½Ô·ï¿½
                     }
                 }
             }
