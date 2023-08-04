@@ -9,7 +9,7 @@ import java.io.*;
  * 골드5
  * https://www.acmicpc.net/problem/2023
  */
-public class Main {
+public class b2023 {
 	
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
