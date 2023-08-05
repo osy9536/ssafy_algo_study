@@ -1,3 +1,5 @@
+package algorithm.src.ohseyoung;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
