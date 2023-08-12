@@ -17,7 +17,6 @@ public class b01194 {
 		int M = Integer.parseInt(NM[1]);
 		char [][] map = new char[N][M];
 		char[] tmp = null;
-//		boolean[] key = new boolean[6];
 		int cur_x = 0, cur_y = 0;
 		
 		for (int i=0; i<N; i++) {
@@ -32,9 +31,9 @@ public class b01194 {
 		}
 //		System.out.println(Arrays.deepToString(map));
 		Queue<Pair> q = new LinkedList<>();
-		boolean[][] visited = new boolean[N][M];
-		visited[cur_x][cur_y] = true;
-		q.add(new Pair(cur_x, cur_y, visited, new boolean[6]));
+		boolean[][][] visited = new boolean[N][M][(1 << 6)];
+		visited[cur_x][cur_y][0] = true;
+		q.add(new Pair(cur_x, cur_y, 0));
 		map[cur_x][cur_y] = '.';
 		
 		int ans = 0;
@@ -52,53 +51,39 @@ public class b01194 {
 					int nx = pair.x + dx[d];
 					int ny = pair.y + dy[d];
 					if (nx<0 || ny<0 || nx>N-1 || ny>M-1) continue;
-					if (pair.visited[nx][ny]) continue;
+					if (visited[nx][ny][pair.key]) continue;
 					if (map[nx][ny] == '#') continue;
-					if (map[nx][ny] >= 'A' && map[nx][ny] <= 'F' && !pair.key[map[nx][ny] - 'A']) continue;
+					if (map[nx][ny] >= 'A' && map[nx][ny] <= 'F' && (pair.key & (1 << (map[nx][ny] - 'A')) ) == 0 ) continue;
 					
-					boolean[][] newVisited = new boolean[N][M];
-					for (int j=0; j<N; j++) {
-						newVisited[j] = Arrays.copyOf(pair.visited[j], M);
-					}
-					boolean[] newKey = new boolean[6];
-					newKey = Arrays.copyOf(pair.key, 6);
-					
+					int newKey = pair.key;
 					if (map[nx][ny] >= 'a' && map[nx][ny] <= 'f') {
-						newKey[map[nx][ny] - 'a'] = true;
-						newVisited = new boolean[N][M];
+						newKey |= 1 << (map[nx][ny] - 'a');
 					}
-					if (map[nx][ny] >= 'A' && map[nx][ny] <= 'F') map[nx][ny] = '.';
 					
-					newVisited[nx][ny] = true;
-//					System.out.println("newVisited: "+Arrays.deepToString(newVisited));
-					q.add(new Pair(nx, ny, newVisited, Arrays.copyOf(newKey, 6)));
-					
+					visited[nx][ny][newKey] = true;
+					q.add(new Pair(nx, ny, newKey));
 					
 				}
 			}
 			ans += 1;
 		}
 		
-		
-		
 		System.out.println(-1);
 	}
 	private static class Pair {
 		int x, y;
-		boolean[][] visited;
-		boolean[] key;
-		Pair(int x, int y, boolean[][] visited, boolean[] key){
+		int key;
+		Pair(int x, int y, int key){
 			this.x = x;
 			this.y = y;
-			this.visited = visited;
 			this.key = key;
 		}
-		@Override
-		public String toString() {
-			return "Pair [" + x + ", " + y + "\tvisited=" + Arrays.deepToString(visited)
-					+ ", key="
-					+ Arrays.toString(key)
-					+ "]";
-		}
+		
+//		@Override
+//		public String toString() {
+//			return "Pair [x=" + x + ", y=" + y + ", key=" + 
+//					Integer.toString(key, 2) + // binary representation
+//					"]";
+//		}
 	}
 }
