@@ -1,5 +1,4 @@
 package algorithm.src.junseo;
-package w0822;
 
 import java.io.BufferedReader;
 import java.io.IOException;
