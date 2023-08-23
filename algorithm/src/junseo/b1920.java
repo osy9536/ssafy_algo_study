@@ -5,9 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-
 /*
-이분탐색 첫 번째 수찾기
+이분탐색 첫 번째 수 찾기
  */
 public class b1920 {
     public static int [] arrA;
@@ -39,7 +38,6 @@ public class b1920 {
             if(binarySearch(arrX[i])>0) System.out.println(1);
             else                        System.out.println(0);
         }
-
     }
     public static int binarySearch(int key){
         int lo = 0;
