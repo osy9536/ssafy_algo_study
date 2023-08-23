@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class b11660_v1 {
     public static void main(String[] args) throws IOException {
-        // TODO Auto-generated method stub
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
@@ -21,7 +21,6 @@ public class b11660_v1 {
             }
         }
         ///////////////////////////////////////////////////////////////////////////////
-
         StringBuilder  sb = new StringBuilder();
         for(int i = 1;i<=M;i++) {
             int sum = 0;
