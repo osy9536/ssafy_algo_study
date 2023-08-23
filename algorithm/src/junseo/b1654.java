@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
 /*
 이분탐색 랜선자르기
  */
@@ -25,7 +24,6 @@ public class b1654 {
             mx = Math.max(mx,arr[i]);
         }
         //////////////////////////////////////////////////////////////
-
         mx++;
         //mx를 찾을 때 upper bound는 mx의 idx+1이됨 즉 배열의 범위를 벗어남
         //그러므로 mx대신 mx+1을 찾게 하여(배열에 없으므로 못찾음)
@@ -45,7 +43,6 @@ public class b1654 {
         }
         System.out.println(min -1);
     }
-
 }
 
 
