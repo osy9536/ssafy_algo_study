@@ -29,4 +29,3 @@ public class b11055 {
         System.out.println(max);
     }
 }
-
