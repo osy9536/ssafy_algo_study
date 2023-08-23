@@ -15,11 +15,9 @@ public class b10816 {
         for(int i = 0; i < N; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
-
         Arrays.sort(arr);
-
+        
         int M = Integer.parseInt(br.readLine());
-
         st = new StringTokenizer(br.readLine());
         StringBuilder sb = new StringBuilder();
 
