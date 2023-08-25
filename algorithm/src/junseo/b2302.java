@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 public class b2302 {
     static int [] ans = new int[50];
     public static void main(String[] args) throws IOException {
-// TODO Auto-generated method stub
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int m = Integer.parseInt(br.readLine());
@@ -17,9 +16,7 @@ public class b2302 {
         for(int i = 0;i<m;i++) {
             arr[Integer.parseInt(br.readLine())] = -1;
         }
-
-//////////////////////////////////////////////////////
-
+    //////////////////////////////////////////////////////
         int cnt =0;
         int res = 1;
         for(int i = 1;i<=n+1;i++) {

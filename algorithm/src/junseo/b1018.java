@@ -7,8 +7,6 @@ import java.util.StringTokenizer;
 
 public class b1018 {
     public static void main(String[] args) throws IOException {
-        // TODO Auto-generated method stub
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -16,7 +14,6 @@ public class b1018 {
         int M = Integer.parseInt(st.nextToken());
 
         char[][] arr = new char[N][M];
-
         int i, j, k, n, m;
         for (i = 0; i < N; i++) {
             String str = br.readLine();

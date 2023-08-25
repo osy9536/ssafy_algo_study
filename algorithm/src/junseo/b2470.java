@@ -23,7 +23,6 @@ public class b2470 {
         int start = 0;
         int end = n-1;
         int min = Integer.MAX_VALUE;
-
         /////////////////////////////////////////////////////////////////////////////
         int ans1=0;
         int ans2=0;
