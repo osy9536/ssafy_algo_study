@@ -4,7 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+// 회전 초밥
+// gold 4
 public class b15961 {
 	static int N, c, k;
 	static int[] sushiCnt, list;
