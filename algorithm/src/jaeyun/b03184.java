@@ -60,12 +60,12 @@ public class b03184 {
 		}
 		System.out.println(sheep+" "+wolf);
 	}
-}
-
-class Pair {
-	int x, y;
-	public Pair(int x, int y) {
-		this.x = x;
-		this.y = y;
+	static class Pair {
+		int x, y;
+		public Pair(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 	}
 }
+

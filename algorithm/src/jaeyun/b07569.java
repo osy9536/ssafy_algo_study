@@ -60,13 +60,13 @@ public class b07569 {
 		}
 		System.out.println(-1); // 1*1*1
 	}
-}
-
-class Pair {
-	int x, y, z;
-	public Pair(int x, int y, int z) {
-		this.x = x;
-		this.y = y;
-		this.z = z;
+	static class Pair {
+		int x, y, z;
+		public Pair(int x, int y, int z) {
+			this.x = x;
+			this.y = y;
+			this.z = z;
+		}
 	}
 }
+
