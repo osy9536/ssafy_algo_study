@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 // 파이프 옮기기 1
 // gold 5
-public class b17471 {
+public class b17070 {
 	static int[] dx = { 0, 1, 1 };
 	static int[] dy = { 1, 0, 1 };
 	static int[][] map;
