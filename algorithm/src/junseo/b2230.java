@@ -14,7 +14,9 @@ public class b2230 {
             arr[i] = sc.nextInt();
         }
         Arrays.sort(arr);
+        
         /////////////////////////////////////////////////////////////////
+        
         int start = 0;
         int end = 0;
         int min = Integer.MAX_VALUE;

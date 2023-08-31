@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
 /*
 b1706_크로스워드
 2차원배열 탐색
@@ -24,9 +23,7 @@ public class b1706 {
                 arr[i][j] = str.charAt(j);
             }
         }
-
         /////////////////////////////////////////////////////////////
-
         String str = "";
         String ans = "";
         for (i = 0; i < R; i++) {
@@ -41,7 +38,6 @@ public class b1706 {
                 }else str += arr[i][j];
             }
         }
-
         //////////////////////////////////////////////////////////////
         for (i = 0; i < C; i++) {
             str = "";
@@ -58,5 +54,4 @@ public class b1706 {
         System.out.println(ans);
     }
 }
-
 

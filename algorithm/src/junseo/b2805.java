@@ -5,8 +5,6 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 public class b2805 {
     public static void main(String[] args) throws IOException {
-
-        // TODO Auto-generated method stub
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -37,8 +35,7 @@ public class b2805 {
                 min = mid + 1;
             }
         }
-
         System.out.println(min - 1);
-
     }
 }
+

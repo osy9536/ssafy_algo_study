@@ -1,4 +1,5 @@
 package algorithm.src.junseo;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,8 +29,7 @@ public class b15649 {
                 System.out.print(arr[i]+" ");
             }
             System.out.println("");
-        }
-        else {
+        }else {
             for(int i = 1; i<=N;i++) {
                 if(flag[i] == false) {
                     flag[i] = true;

@@ -36,9 +36,7 @@ public class b16926 {
             }
             System.out.println("");
         }
-
     }
-
     static void Rotation(){
         for(int i = 0; i<min/2;i++){ // N,M중 작은 값 만큼 반복
             int x = i;

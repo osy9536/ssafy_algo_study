@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
  * 1) 가로줄과 세로줄에 1~19 번호가 붙어있는 오목판
  * 2) 흰검, 바둑알을 교대로 놓아서 5개의 같은 색 알이 직선,대각을 이루면 이김
  * 3) 6알 이상 -> x
- * 4)
  */
 public class b2615 {
 
@@ -65,7 +64,6 @@ public class b2615 {
                     }
                 }
             }
-
         }
         System.out.println(0);
     }
