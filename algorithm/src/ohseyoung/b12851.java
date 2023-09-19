@@ -7,8 +7,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 숨바꼭질 3
-// gold 5
+// 숨바꼭질 2
+// gold 4
 public class b13549 {
 	static class Node {
 		int now, depth;
@@ -34,6 +34,7 @@ public class b13549 {
 		cnt = 1;
 		BFS(N);
 		System.out.println(answer);
+		System.out.println(cnt);
 	}
 
 	static void BFS(int start) {
@@ -59,8 +60,7 @@ public class b13549 {
 				if(next>=0&&next<100001) {
 					if(visited[next]==0||visited[next]==cur.depth+1) {
 						visited[next]=cur.depth+1;
-						if(i==2) q.add(new Node(next,cur.depth));
-						else q.add(new Node(next,cur.depth+1));
+						q.add(new Node(next,cur.depth+1));
 					}
 				}
 			}
