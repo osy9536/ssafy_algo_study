@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * 백준 16491
+ * 백준 16401
  * 과자 나눠주기
  * 실버 2
  * https://www.acmicpc.net/problem/16401
