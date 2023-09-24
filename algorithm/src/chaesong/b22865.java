@@ -4,7 +4,7 @@ import java.io.*;
 public class b22865 {
     static ArrayList<Node> lst[];
 
-    static int N, A, B, C;
+    static int N;
 
     static class Node implements Comparable<Node> {
         int n, w;
