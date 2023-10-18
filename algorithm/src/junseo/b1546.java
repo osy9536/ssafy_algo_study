@@ -1,6 +1,5 @@
 package algorithm.src.junseo;
 
-package doIt;
 
 import java.io.BufferedReader;
 import java.io.IOException;
