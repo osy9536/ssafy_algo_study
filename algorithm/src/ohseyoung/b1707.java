@@ -70,7 +70,7 @@ public class b1707 {
 				}
 			}
 		}
-
+ 
 		System.out.println("YES");
 	}
 }
