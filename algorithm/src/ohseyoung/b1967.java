@@ -19,6 +19,7 @@ public class b1967 {
             this.val = val;
         }
     }
+    
 
     static boolean[] leafs;
     static List<Node>[] list;
