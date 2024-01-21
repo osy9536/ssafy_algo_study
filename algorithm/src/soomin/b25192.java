@@ -3,6 +3,7 @@ import java.util.*;
 import java.io.*;
 public class b25192 {
 
+
     /*
      * 인사성 밝은 곰곰이
      * [25192번] 실버 4
