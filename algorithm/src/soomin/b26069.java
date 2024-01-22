@@ -3,6 +3,7 @@ import java.util.*;
 import java.io.*;
 public class b26069 {
 
+
     /*
      * 붙임성 좋은 총총이
      * [26069번] 실버 4
