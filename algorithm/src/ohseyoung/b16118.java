@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// 달빛 여우
+// gold 1
 public class b16118 {
 
     static class Node implements Comparable<Node> {
