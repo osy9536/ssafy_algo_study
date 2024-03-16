@@ -7,7 +7,7 @@ import java.util.*;
  * Lv 3
  * https://school.programmers.co.kr/learn/courses/30/lessons/12927
  */
-public class 야근지수 {
+public class p12927 {
 
     public static void main(String[] args) {
         int n = 4;
