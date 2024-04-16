@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Solution {
+class p다음큰숫자 {
     public int solution(int n) {
         int answer = 0;
         boolean find = false;

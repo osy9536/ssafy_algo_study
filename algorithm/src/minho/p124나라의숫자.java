@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.*;
 
-class Solution {
+class p124나라의숫자 {
     public String solution(int n) {
         Stack<Integer> stack = new Stack <>();
         String answer = "";

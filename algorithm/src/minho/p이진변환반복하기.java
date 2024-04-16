@@ -1,4 +1,4 @@
-class Solution {
+class p이진변환반복하기 {
     public int[] solution(String s) {
         int[] answer = new int[2];
         while(s.length()>1){

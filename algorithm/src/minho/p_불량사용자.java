@@ -1,4 +1,4 @@
-import java.util.Arrays;
+	import java.util.Arrays;
 import java.util.HashSet;
 public class p_불량사용자 {
     static boolean[] check;
