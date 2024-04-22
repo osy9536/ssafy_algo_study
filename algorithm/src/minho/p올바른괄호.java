@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution {
+class p올바른 괄호 {
     boolean solution(String s) {
 
         Stack<Character> stack = new Stack<>();
